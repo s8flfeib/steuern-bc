@@ -1,0 +1,38 @@
+body{
+    background-color: grey;
+}
+
+
+
+
+.blue_box, .green_box {
+    display: block;
+    clear:both;
+}
+.blue_box span {
+    background-color: blue;
+    color: white;
+    padding: 10px 5px;
+    display: block;
+    float: left;
+}
+.green_box span {
+    background-color: green;
+    color: white;
+    padding: 10px 5px;
+    display: block;
+    float: right;
+}
+
+.left_box {
+    background-color: yellow;
+    width: 30%;
+    float: left;
+}
+
+.right_box {
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    float: left;
+}

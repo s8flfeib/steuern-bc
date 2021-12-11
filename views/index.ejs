@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8"> 
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="head">
+        <h1>Dashboard</h1>
+    </div>
+
+    <form method="post" enctype="multipart/form-data">
+        
+        <h2>Wählen Sie eine PDF Datei (*.pdf) von Ihrem Rechner aus.</h2><br>
+        <label>
+            <label for="unterlage">Unterlagen:</label> 
+<!------Maybe change accept so that only PDFs are enabled-->
+            <input name="file" type="file" size="100" accept="text/*"> 
+        </label>  
+        <br>
+        <button>Upload</button>
+    </form>
+
+    <h2>Senden Sie eine Nachricht</h2>
+
+    <div class="left_box">
+        <div class="blue_box">
+            <span>Hello</span>
+        </div>
+        <div class="green_box">
+            <span>Bye</span>
+        </div>
+    </div>
+
+    <br><br><br><br><br>
+    <form method="post" enctype="multipart/form-data">
+        <label>
+            <label for="unterlage">Nachricht:</label> 
+            <input name="massage" type="text" size="50" accept="text/*"> 
+        </label>  
+        <br>
+        <button>Senden</button>
+    </form>
+      
+</body>
+
+</html>
